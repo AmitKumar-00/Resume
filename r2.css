@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*body{
+    background-color: aliceblue;
+}*/
+
+
+
+.container{
+    width: 70%;
+    margin-inline:auto;
+    background-color:#cccc;
+    display: flex;
+    
+}
+
+.left-column{
+    width: 35%;   
+    background-color:white;
+    margin: 10px 12px 10px ;
+    padding: 10px;
+   box-shadow: 10px 10px 4px #cccc;
+   
+}
+
+
+.right-column{
+    width: 70%;
+
+}
+
+.image1{
+    position: relative;
+}
+
+.image1 img{
+    width: 250px;
+    height: 200px;
+}
+
+.image1 .head1{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+.icon-text{
+    display: flex;
+    gap: 10px;
+}
+
+i{
+    color:teal;
+   
+}
+
+.unorder1 , .skills ul{
+    list-style: none;
+}
+
+.progress-bar{
+    width: 95%;
+    background-color:#cccc;
+    border-radius: 20px;
+}
+
+.progress{
+    text-align: center;
+    background-color: teal;
+    border-radius: 20px;
+    color: white;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    display: flex;
+    gap: 10px;
+}
+
+.head2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    display: flex;
+    gap: 10px;
+}
+
+
+.work-exp .p1{
+    display: flex;
+    gap: 15px;
+    color: teal;
+}
+
+.span1{
+    width: 60px;
+    padding: 2px 3px;
+    border-radius:  4px;
+    background-color: teal;
+    position: relative;
+    bottom: 2px;
+    right: 10px;
+    color:white;
+}
+
+.datediv{
+    position: relative;
+   top: 7px;
+}
+
+i{
+    position: relative;
+    top: 2.5px;
+}
+.upper-right , .lower-right{
+    background-color: white;
+     margin: 10px 15px 30px ;
+    padding: 25px 20px;
+   box-shadow: 10px 10px 4px #cccc;
+}
+
